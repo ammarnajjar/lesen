@@ -1,4 +1,18 @@
 const words = [
+  "A",
+  "I",
+  "i",
+  "a",
+  "L",
+  "l",
+  "M",
+  "m",
+  "T",
+  "t",
+  "P",
+  "p",
+  "O",
+  "o",
   "Tomate",
   "To",
   "Ti",
@@ -83,6 +97,9 @@ const words = [
   "Semi",
   "Sami",
   "Soma",
+  "Lisa malt Timo",
+  "Timo isst Salat",
+  "Lisa isst Salami",
 ];
 
 function shuffle(array) {
