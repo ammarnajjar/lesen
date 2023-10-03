@@ -2,31 +2,41 @@
   font-family: "Patrick";
   src: url("./fonts/PatrickHand-Regular.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Quicksand";
-  src: url("./fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
-}
 
 @media only screen and (max-width: 320px) {
   body {
     font-size: 2em;
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 95vh;
   }
 }
 
 #container {
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  width: 99vw;
+  height: 95vh;
 }
 
 #content {
   width: inherit;
   text-align: center;
-  font-size: clamp(1rem, 10vw, 100vw);
-  font-family: "Quicksand", "Patrick", Helvetica, Arial, sans-serif;
+  font-size: clamp(1rem, 30vw, 100vw);
+  font-family: "Patrick", Helvetica, Arial, sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#backward {
+  background-color: aliceblue;
+  height: 95vh;
+  width: 50%;
+}
+
+#forward {
+  background-color: beige;
+  height: 95vh;
+  left: 50%;
+  width: 50%;
 }
