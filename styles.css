@@ -18,7 +18,6 @@
 }
 
 #content {
-  width: inherit;
   text-align: center;
   font-size: clamp(1rem, 30vw, 100vw);
   font-family: "Patrick", Helvetica, Arial, sans-serif;
@@ -29,14 +28,40 @@
 }
 
 #backward {
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  height: 95vh;
+  width: 50%;
+}
+
+.backward {
   background-color: rgb(218, 234, 248);
   height: 95vh;
   width: 50%;
 }
 
+.left {
+  transform: scaleX(-1);
+}
+
 #forward {
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  height: 95vh;
+  left: 50%;
+  width: 50%;
+}
+
+.forward {
   background-color: rgb(253, 231, 250);
   height: 95vh;
   left: 50%;
   width: 50%;
+}
+
+.right {
+  right: 0;
+  position: absolute;
 }
