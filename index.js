@@ -97,9 +97,6 @@ const words = [
   "Semi",
   "Sami",
   "Soma",
-  "Lisa malt Timo",
-  "Timo isst Salat",
-  "Lisa isst Salami",
 ];
 
 function shuffle(array) {
