@@ -29,13 +29,13 @@
 }
 
 #backward {
-  background-color: aliceblue;
+  background-color: rgb(218, 234, 248);
   height: 95vh;
   width: 50%;
 }
 
 #forward {
-  background-color: rgb(255, 240, 253);
+  background-color: rgb(253, 231, 250);
   height: 95vh;
   left: 50%;
   width: 50%;
